@@ -1,6 +1,6 @@
 "use strict";
 
-const API = "../data/data.json";
+const API = "https://dumitrubolandau78.github.io/data/data.json";
 const fetchData = async function (){
   const getRes = await fetch(API);
   const data = await getRes.json();
