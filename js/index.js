@@ -1,6 +1,6 @@
 "use strict";
 
-const API = "https://dumitrubolandau78.github.io/data/data.json";
+const API = "../data/data.json";
 const fetchData = async function (){
   const getRes = await fetch(API);
   const data = await getRes.json();
@@ -8,7 +8,7 @@ const fetchData = async function (){
   if(getRes.ok){
     showData(data);
   } else {
-    alert('Couldnt get data');
+    alert('Couldnt get data, github hosting doesnt allow this. Please download and run it local.');
   }
 }
 fetchData();
