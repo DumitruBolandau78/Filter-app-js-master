@@ -4,7 +4,12 @@ const API = "../data/data.json";
 const fetchData = async function (){
   const getRes = await fetch(API);
   const data = await getRes.json();
-  showData(data);
+
+  if(getRes.ok){
+    showData(data);
+  } else {
+    alert('Couldnt get data');
+  }
 }
 fetchData();
 
