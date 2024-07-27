@@ -1,0 +1,75 @@
+.modal-add-deviz {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+    border-bottom: 2px solid #900;
+    border-left: 2px solid #900;
+    border-top: 2px solid yellow;
+    border-right: 2px solid yellow;
+    display: none;
+}
+
+.modal-add-deviz .title {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.close-modal {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    fill: black;
+    height: 20px;
+    width: 20px;
+}
+
+.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal-add-deviz .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.modal-add-deviz .row input{
+    width: 70%;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    border-bottom: 2px solid green;
+    background-color: #fff;
+    padding: 5px 15px;
+}
+
+.modal-add-deviz .row.btn {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.modal-add-deviz .row.btn button{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 25px;
+    background-color: green;
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 30px;
+    cursor: pointer;
+}

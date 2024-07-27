@@ -1,0 +1,70 @@
+[
+    {
+        "deviz": "ACS-F-00232/02.06.2021",
+        "factura": "434",
+        "companie": "Tehnostrade srl",
+        "camion": "VSD23HBS",
+        "valoare": "2.231 RON"
+    },
+    {
+        "deviz": "ACS-F-00233/06.06.2021",
+        "factura": "1223",
+        "companie": "Tehnostrade srl",
+        "camion": "VS2323HBS",
+        "valoare": "1.231 RON"
+    },
+    {
+        "deviz": "ACS-F-00233/06.03.2021",
+        "factura": "1223",
+        "companie": "Tehnostrade srl",
+        "camion": "VS2323HBS",
+        "valoare": "991.2 RON"
+    },{
+        "deviz": "ACS-F-00232/02.06.2022",
+        "factura": "434",
+        "companie": "Tehnostrade srl",
+        "camion": "VSD23HBS",
+        "valoare": "2.231 RON"
+    },
+    {
+        "deviz": "ACS-F-00233/06.06.2022",
+        "factura": "1223",
+        "companie": "Tehnostrade srl",
+        "camion": "VS2323HBS",
+        "valoare": "1.231 RON"
+    },
+    {
+        "deviz": "ACS-F-00233/06.03.2022",
+        "factura": "1223",
+        "companie": "Tehnostrade srl",
+        "camion": "VS2323HBS",
+        "valoare": "991.2 RON"
+    },{
+        "deviz": "ACS-F-00232/02.06.2023",
+        "factura": "434",
+        "companie": "Tehnostrade srl",
+        "camion": "VSD23HBS",
+        "valoare": "2.231 RON"
+    },
+    {
+        "deviz": "ACS-F-00233/06.06.2023",
+        "factura": "1223",
+        "companie": "Tehnostrade srl",
+        "camion": "VS2323HBS",
+        "valoare": "1.231 RON"
+    },
+    {
+        "deviz": "ACS-F-00233/06.03.2023",
+        "factura": "1223",
+        "companie": "Tehnostrade srl",
+        "camion": "VS2323HBS",
+        "valoare": "991.2 RON"
+    },
+    {
+        "deviz": "ACS-F-00233/05.02.2021",
+        "factura": "1223",
+        "companie": "Tehnostrade srl",
+        "camion": "VS2323HBS",
+        "valoare": "991.2 RON"
+    }
+]
